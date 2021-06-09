@@ -30,7 +30,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #00BFFF;
+    color: #F5FFFA;
     font-weight: bold;
     font-size: 25;
     text-decoration: none;
@@ -38,10 +38,14 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    color: #ADD8E6;
+    color: #00BFFF;;
 }
 
 /* Sobre Mim */
+
+.sobreMin {
+    height: 250px;
+}
 
 .sobreMin h2 {
     font-weight: bold;
@@ -68,3 +72,39 @@ nav a:hover {
 
 /* Serviços */
 
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.servicos li:active {
+    border-color: #0b4e91;
+}
+
+.servicos h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.servicos li:hover h3 {
+    font-size: 34px;
+}
+
+.servicos p {
+    font-size: 18px;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
